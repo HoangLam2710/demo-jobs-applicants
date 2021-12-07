@@ -1,0 +1,298 @@
+.modalBody {
+  padding: 0;
+}
+
+/* jdHeader */
+.jdHeader {
+  background: url(/bg-building.jpeg);
+  height: 250px;
+  background-position: center;
+  position: relative;
+}
+
+.jdHeader button {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.jdHeaderStatus {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  backdrop-filter: blur(3px);
+  color: white;
+}
+
+.jdHeaderStatus button {
+  font-size: 0.9rem;
+  padding: 0.5rem 1rem;
+}
+
+.jdHeaderStatus button:first-child {
+  background-color: #f8fafc;
+  border-color: #f8fafc;
+  color: black;
+}
+
+.jdHeaderStatus button:hover:first-child,
+.jdHeaderStatus button:focus:first-child,
+.jdHeaderStatus button:active:first-child {
+  background-color: #cad1d9 !important;
+  border-color: #cad1d9 !important;
+  color: black !important;
+}
+
+.jdHeaderStatus button:last-child {
+  background-color: #ff6b00;
+  border-color: #ff6b00;
+}
+
+.jdHeaderStatus button:hover:last-child,
+.jdHeaderStatus button:focus:last-child,
+.jdHeaderStatus button:active:last-child {
+  background-color: #e17120 !important;
+  border-color: #e17120 !important;
+}
+
+.statusWrapped {
+  display: flex;
+  align-items: center;
+  background-color: #334155;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+}
+
+.statusWrapped div:first-child {
+  border-right: 0.5px solid #475569;
+  padding-right: 1rem;
+}
+
+.statusWrapped div:last-child {
+  border-left: 0.5px solid #475569;
+  padding-left: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+.statusWrapped .status {
+  color: #17a178;
+  font-weight: bold;
+}
+
+.statusWrapped .team {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  background-color: #fcd34d;
+}
+
+@media only screen and (max-width: 767px) {
+  .jdHeader {
+    height: 300px;
+  }
+
+  .jdHeaderStatus {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jdHeaderStatus button {
+    font-size: 0.8rem;
+    margin: 0.5rem 0;
+  }
+}
+
+/* ------------------------------------------------ */
+/* jdContentWrapped */
+.jdContentWrapped {
+  margin-top: -3rem;
+}
+
+.wrapped {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.jdRequest {
+  display: flex;
+}
+
+.jdTags {
+  background-color: #e2e8f0;
+  color: black;
+  padding: 0.25rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+}
+
+.jdTags i {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+}
+
+.jdTags .tagsContentImage {
+  margin-left: 0.5rem;
+}
+
+.jdContent {
+  margin-top: 1rem;
+}
+
+/* jdContentTop */
+.jdContentTop {
+  border-bottom: 1px solid #e3e9ef;
+  padding-bottom: 1.5rem;
+}
+
+.jdContentTop .jdContentLeft h6 {
+  font-size: 0.9rem;
+  font-weight: normal;
+}
+
+.jdContentTop .jdContentLeft h1 {
+  font-size: 2rem;
+}
+
+.jdContentTop .jdContentRight {
+  margin-top: 1.5rem;
+}
+
+.jdContentTop .jdContentRight .badge {
+  font-size: 0.7rem;
+}
+
+.jdContentTop .jdContentRight .badge span {
+  background-color: #fdf0c8;
+  padding: 0.25rem 0.8rem;
+  margin-right: 0.5rem;
+  border-radius: 20px;
+}
+
+.jdContentTop .jdContentRight .hot span {
+  color: #17a178;
+}
+
+.jdContentTop .jdContentRight .contentVideo {
+  display: flex;
+  align-items: center;
+}
+
+.jdContentTop .jdContentRight .contentVideo i {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
+
+.jdContentTop .jdContentRight .buttonFeature {
+  display: flex;
+  justify-content: space-around;
+}
+
+.jdContentTop .jdContentRight .buttonFeature button {
+  background-color: #f1f5f9;
+  border-color: #94a3b8;
+  color: #94a3b8;
+  font-size: 0.8rem;
+  padding: 0.5rem 1.5rem;
+  display: flex;
+  align-content: center;
+}
+
+.jdContentTop .jdContentRight .buttonFeature button i {
+  margin-right: 0.5rem;
+}
+
+.jdContentTop .jdContentRight .buttonFeature button:hover,
+.jdContentTop .jdContentRight .buttonFeature button:focus,
+.jdContentTop .jdContentRight .buttonFeature button:active {
+  background-color: #94a3b8 !important;
+  border-color: #94a3b8 !important;
+  color: #f1f5f9 !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .jdContainer {
+    padding: 0 1rem !important;
+  }
+
+  .jdRequest {
+    flex-wrap: wrap;
+  }
+
+  .jdTags {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* ------------------------------------------------ */
+/* jdContentBottom */
+.jdContentBottom {
+  border-top: 1px solid #e3e9ef;
+  padding-top: 1.5rem;
+}
+
+.jdContentBottom .blockContent {
+  margin-bottom: 2rem;
+}
+
+.jdContentBottom .blockContent ul {
+  padding-left: 1.5rem;
+}
+
+.jdContentBottom .blockContent ul li {
+  list-style-type: disc;
+}
+
+.jdContentBottom .title {
+  font-weight: bold;
+}
+
+/* ------------------------------------------------ */
+/* read more */
+
+.readmore {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--main-color);
+}
+
+.readmore i {
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+/* ------------------------------------------------ */
+/* video play */
+.videoPlay {
+  position: relative;
+}
+
+.videoPlay .thumbnail {
+  margin-bottom: 1rem;
+}
+
+.videoPlay .thumbnail img {
+  border-radius: 8px;
+}
+
+.videoPlay .thumbnail i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  color: #94a3b8;
+  font-size: 1.5rem;
+  text-align: center;
+  line-height: 40px;
+}

@@ -1,0 +1,84 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: var(--main-color);
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.sidebarBrand {
+  color: var(--color-white);
+}
+
+.sidebarBrand h1 {
+  font-size: 1.8rem;
+  margin-bottom: 0;
+}
+
+.sidebarBrand span {
+  display: inline-block;
+  padding-right: 1rem;
+}
+
+.userWrapper {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  color: var(--color-white);
+}
+
+.userWrapper,
+.userWrapper:hover,
+.userWrapper:focus {
+  background-color: transparent !important;
+  border: none;
+  box-shadow: none !important;
+}
+
+.userWrapper::after {
+  display: none;
+}
+
+.userWrapper img {
+  border-radius: 50%;
+}
+
+.userWrapper h4 {
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.userWrapper h6 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.userWrapper div {
+  margin-left: 0.5rem;
+}
+
+.userDropdown {
+  transform: translate3d(0px, 70px, 0px) !important;
+}
+
+.userDropdown a {
+  font-size: 0.9rem;
+}
+
+.userDropdown a i {
+  color: var(--text-grey);
+  margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 767px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+}

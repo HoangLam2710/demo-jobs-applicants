@@ -1,0 +1,34 @@
+.sidebar {
+  width: 60px;
+  position: fixed;
+  left: 0;
+  top: 65px;
+  height: 100%;
+  background-color: var(--color-white);
+  z-index: 100;
+}
+
+.sidebarMenu li {
+  margin-bottom: 1rem;
+}
+
+.sidebarMenu a {
+  display: block;
+  color: var(--main-color);
+  text-align: center;
+  margin: 10px;
+  transition: all 0.3s;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 5px;
+}
+
+.sidebarMenu a:hover {
+  background-color: var(--main-color);
+  color: var(--color-white);
+}
+
+.sidebarMenu a i {
+  font-size: 1rem;
+}

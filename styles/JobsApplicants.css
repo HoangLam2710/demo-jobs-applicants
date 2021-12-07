@@ -1,0 +1,27 @@
+.teamMarketing {
+  background-color: #fcd34d;
+}
+
+.teamSales {
+  background-color: #047857;
+}
+
+.teamAuditing {
+  background-color: #34d399;
+}
+
+.teamOperations {
+  background-color: #b45309;
+}
+
+.statusActive {
+  color: #10b981;
+}
+
+.statusHidden {
+  color: #fbbf24;
+}
+
+.statusExpired {
+  color: #94a3b8;
+}
